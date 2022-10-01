@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body> 
+     <div>
+        
+        <label for="nombre">Correo:</label>
+        <input type="email" id="nombre" placeholder="ejemplo@123.com" maxlength="128"><br>
+        <label for="Contraseña">Contraseña:</label>
+        <input type="password" id="Contraseña" maxlength="24" minlength="8" ><br>
+    </div> 
+
+        <label for="Direccion">Direccion:</label>
+        <input type="text" id="Direccion" placeholder="Av Hidalgo 14" maxlength="64"><br>
+        <label for="Direccion 2">Direccion 2:</label>
+        <input type="text" id="Direccion 2" name="Direccion 2" maxlength="64" ><br>
+        
+        <label for="Ciudad">Ciudad</label>
+        <input type="text" id="Ciudad" maxlength="30"><br>
+
+        <label>Estado: </label>
+        <select name="estado">
+            <option value="no">Seleccione uno...</option>
+            <option value="Aguascalientes">Aguascalientes</option>
+            <option value="Baja California">Baja California</option>
+            <option value="Baja California Sur">Baja California Sur</option>
+            <option value="Campeche">Campeche</option>
+            <option value="Chiapas">Chiapas</option>
+            <option value="Chihuahua">Chihuahua</option>
+            <option value="CDMX">Ciudad de México</option>
+            <option value="Coahuila">Coahuila</option>
+            <option value="Colima">Colima</option>
+            <option value="Durango">Durango</option>
+            <option value="Estado de México">Estado de México</option>
+            <option value="Guanajuato">Guanajuato</option>
+            <option value="Guerrero">Guerrero</option>
+            <option value="Hidalgo">Hidalgo</option>
+            <option value="Jalisco">Jalisco</option>
+            <option value="Michoacán">Michoacán</option>
+            <option value="Morelos">Morelos</option>
+            <option value="Nayarit">Nayarit</option>
+            <option value="Nuevo León">Nuevo León</option>
+            <option value="Oaxaca">Oaxaca</option>
+            <option value="Puebla">Puebla</option>
+            <option value="Querétaro">Querétaro</option>
+            <option value="Quintana Roo">Quintana Roo</option>
+            <option value="San Luis Potosí">San Luis Potosí</option>
+            <option value="Sinaloa">Sinaloa</option>
+            <option value="Sonora">Sonora</option>
+            <option value="Tabasco">Tabasco</option>
+            <option value="Tamaulipas">Tamaulipas</option>
+            <option value="Tlaxcala">Tlaxcala</option>
+            <option value="Veracruz">Veracruz</option>
+            <option value="Yucatán">Yucatán</option>
+            <option value="Zacatecas">Zacatecas</option>
+        </select>
+
+        <label for="cp">Codigo Postal:</label>
+        <input type="text" maxlength="5" minlength="5" id="CP">
+       <input type="checkbox" id="Confirmar">
+       <label for="Confirmar">Confirmar mis datos</label>
+       <input type="submit" value="Guardar" >
+
+</body>
+</html>
