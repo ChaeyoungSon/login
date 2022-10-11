@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-     <div>
+
+    
+    <h1>Formulario</h1>
+     <div id="fondo">
         
         <label for="nombre">Correo:</label>
-        <input type="email" id="nombre" placeholder="ejemplo@123.com" maxlength="128"><br>
-        <label for="Contraseña">Contraseña:</label>
+        <input type="email"  placeholder="ejemplo@123.com" maxlength="128"><br>
+        <label for="Contraseña" class="nombre">Contraseña:</label>
         <input type="password" id="Contraseña" maxlength="24" minlength="8" ><br>
-    </div> 
+    
 
         <label for="Direccion">Direccion:</label>
         <input type="text" id="Direccion" placeholder="Av Hidalgo 14" maxlength="64"><br>
@@ -23,7 +26,7 @@
         
         <label for="Ciudad">Ciudad</label>
         <input type="text" id="Ciudad" maxlength="30"><br>
-
+        
         <label>Estado: </label>
         <select name="estado">
             <option value="no">Seleccione uno...</option>
@@ -66,6 +69,7 @@
        <input type="checkbox" id="Confirmar">
        <label for="Confirmar">Confirmar mis datos</label>
        <input type="submit" value="Guardar" >
+        </div>
 
 </body>
 </html>

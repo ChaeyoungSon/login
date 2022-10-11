@@ -1,2 +1,2 @@
 # login
-a simple login
+Registro de Datos
